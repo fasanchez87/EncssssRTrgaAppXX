@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#214A8B</color>
+    <color name="colorPrimaryDark">#214a8b</color>
+    <color name="colorAccent">#658d3f</color>
+
+    <color name="colorBlanco">#FFFFFF</color>
+    <color name="colorVerdeCC">#658d3f</color>
+    <color name="colorVerdePressed">#91bf64</color>
+    <color name="colorBotonPresionado">#F7F9F9</color>
+    <color name="colorBotonPresionadoPantallaBlanca">#8da9e6</color>
+    <color name="colorBotonSinPresionar">#00aff0</color>
+    <color name="colorFloatingButton">#FF6600 </color>
+    <color name="colorGrisTextCollpser">#515151 </color>
+    <color name="colorRegistroCampos">#858585 </color>
+    <color name="white_trans">#99FFFFFF</color>
+    <color name="timestamp">#a0a3a7</color>
+    <color name="fondoGris">#f2f2f2</color>
+    <color name="link">#0a80d1</color>
+    <color name="colorEditTextGris">#848484</color>
+    <color name="colorGris">#919191</color>
+    <color name="colorCatNotificacionRojo">#d87b86</color>
+    <color name="colorCatNotificacionVerde">#72a384</color>
+    <color name="colorCatNotificacionAmarillo">#eae66e</color>
+    <color name="colorLetraFondoEstrellado">#a3a3a3</color>
+
+    <color name="colorDone">#0F9D58</color>
+    <color name="colorSchedule">#EF6C00</color>
+    <color name="colorAzulDicmax">#2d4896</color>
+    <color name="colorNegro">#000000</color>
+    <color name="colorAmarilloLevapan">#e4ae0c</color>
+    <color name="lista">#93f4f4f4</color>
+    <color name="verdeNotificacion">#92C83B</color>
+    <color name="prueba">#2affffff</color>
+</resources>

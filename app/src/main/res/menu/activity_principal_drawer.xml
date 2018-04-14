@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Servicios">
+        <menu>
+            <group
+                android:id="@+id/group_1"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_servicio"
+                    android:icon="@drawable/ic_servicio"
+                    android:title="Solicitar Servicio"
+                    />
+                <item
+                    android:id="@+id/nav_noticias"
+                    android:icon="@drawable/ic_servicio"
+                    android:title="Noticias"
+                     />
+                <item
+                    android:id="@+id/nav_notificaciones"
+                    android:icon="@drawable/ic_servicio"
+                    android:title="Notificaciónes"
+                   />
+            </group>
+        </menu>
+    </item>
+
+   <!-- <item android:title="Reportar">
+        <menu>
+            <group
+                android:id="@+id/group_2"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_daños"
+                    android:icon="@drawable/ic_danos"
+                    android:title="Daño" />
+                <item
+                    android:id="@+id/nav_fraudes"
+                    android:icon="@drawable/ic_fraudes"
+                    android:title="Fraude" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Solicitudes">
+        <menu>
+            <group
+                android:id="@+id/group_3"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_solicitud_servicio"
+                    android:icon="@drawable/ic_action_solicitud"
+                    android:title="Solicitud de Servicio" />
+                <item
+                    android:id="@+id/nav_historial_solicitud"
+                    android:icon="@drawable/ic_action_estado_solicitud"
+                    android:title="Consultar Solicitudes"
+                    app:actionLayout="@layout/menu_counter_solicitud_servicio"/>
+                <item
+                    android:id="@+id/nav_validar_operario"
+                    android:icon="@drawable/ic_action_validar_operario"
+                    android:title="Validar Operario"
+                    />
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Ordenes">
+        <menu>
+            <group
+                android:id="@+id/group_4"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_ordenes_servicio"
+                    android:icon="@drawable/ic_action_orden_servicio"
+                    android:title="Ordenes de Servicio" />
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Descargar">
+        <menu>
+            <group
+                android:id="@+id/group_5"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_duplicado_factura"
+                    android:icon="@drawable/ic_action_duplicado"
+                    android:title="Duplicado Factura" />
+                <item
+                    android:id="@+id/nav_cupon_abono"
+                    android:icon="@drawable/ic_action_cupon"
+                    android:title="Cupón de Abono" />
+                <item
+                    android:id="@+id/nav_paz_salvo"
+                    android:icon="@drawable/ic_action_paz_salvo"
+                    android:title="Paz y Salvo" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Configuración">
+        <menu>
+            <group
+                android:id="@+id/group_6"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_cuenta"
+                    android:icon="@drawable/ic_cuenta"
+                    android:title="Cuenta" />
+                <item
+                    android:id="@+id/nav_compartir"
+                    android:icon="@drawable/ic_compartir"
+                    android:title="Compartir" />
+                <item
+                    android:id="@+id/nav_cerrar_sesion"
+                    android:icon="@drawable/ic_close"
+                    android:title="Cerrar Sesion" />
+            </group>
+        </menu>
+    </item>-->
+</menu>

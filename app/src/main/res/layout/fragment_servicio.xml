@@ -1,0 +1,135 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.ingeniapps.encarga.fragment.Servicio"
+    android:id="@+id/flMapa">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:id="@+id/ll_map_servicio">
+
+        <fragment
+            android:id="@+id/map_servicio"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:id="@+id/linearComprarFT"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/border_dialog_map"
+                    android:orientation="vertical"
+                    android:paddingBottom="15dp"
+                    android:visibility="visible">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="10dp">
+
+                        <TextView
+                            android:id="@+id/labelServicioNecesitaAlgo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="Estoy necesitando"
+                            android:textColor="@color/colorBlanco"
+                            android:textSize="16sp"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/linearPago"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingBottom="1dp">
+
+
+                        <ImageButton
+                            android:id="@+id/botonPagarCuenta"
+                            android:layout_width="fill_parent"
+                            android:layout_height="80dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/ic_moto"
+                            android:background="@drawable/button_login"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter"
+                            android:textColor="@android:color/white" />
+
+                        <Space
+                            android:layout_width="20dp"
+                            android:layout_height="0dp" />
+
+                        <ImageButton
+                            android:id="@+id/botonPagarCeweruenta"
+                            android:layout_width="fill_parent"
+                            android:layout_height="80dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/ic_carro"
+                            android:background="@drawable/button_login"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter"
+                            android:textColor="@android:color/white" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </fragment>
+
+    </LinearLayout>
+
+</FrameLayout>
