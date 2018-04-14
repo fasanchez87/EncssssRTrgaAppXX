@@ -107,10 +107,6 @@ android:id="@+id/flMapa">
 
                 </LinearLayout>
 
-
-
-
-
             </LinearLayout>
 
             <LinearLayout
